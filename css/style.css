@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw 38rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  background-color: hsla(192deg, 100%, 96%, 0.61);
+  height: 38rem;
+}
+nav .logo {
+  width: 12rem;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+nav .tryfree {
+  width: 10rem;
+  height: 2.3rem;
+  border-radius: 3rem;
+  border: none;
+  background-color: white;
+  float: right;
+  position: relative;
+  right: 7rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  font-weight: 700;
+  box-shadow: 1px 2px 3px black;
+}
+nav .titulos1 {
+  display: inline-block;
+  position: relative;
+  left: 5rem;
+  top: 5rem;
+}
+nav .titulo {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 2rem;
+  width: 17rem;
+  display: block;
+}
+nav .p_titulo {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 2rem;
+  font-weight: 400;
+  width: 28rem;
+  display: block;
+}
+nav .mockups {
+  display: block;
+  width: 40rem;
+  float: right;
+  margin-top: 3rem;
+}
+nav .getstarted {
+  width: 10rem;
+  height: 2.3rem;
+  border-radius: 3rem;
+  border: none;
+  background-color: hsl(322deg, 100%, 66%);
+  color: white;
+  margin-left: 2rem;
+  box-shadow: 1px 2px 3px black;
+}
+
+.ventajas {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.ventajas .grow {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  width: 99%;
+  display: inline-block;
+  box-shadow: 1px 1px 10px 1px grey;
+}
+.ventajas .grow p {
+  display: inline-block;
+  width: 30rem;
+  margin: 6rem;
+}
+.ventajas .grow h2 {
+  position: absolute;
+  display: block;
+  margin: 4rem;
+  margin-left: 6rem;
+}
+.ventajas .flowing {
+  position: relative;
+  margin-bottom: 2rem;
+  width: 99%;
+  box-shadow: 1px 1px 10px 1px grey;
+  display: inline-block;
+}
+.ventajas .flowing .img_ventajas {
+  display: block;
+  float: left;
+}
+.ventajas .flowing p {
+  display: inline-block;
+  width: 30rem;
+  margin: 6rem;
+}
+.ventajas .flowing h2 {
+  position: absolute;
+  display: block;
+  margin: 4rem;
+  margin-left: 30rem;
+}
+.ventajas .your {
+  position: relative;
+  width: 99%;
+  display: inline-block;
+  box-shadow: 1px 1px 10px 1px grey;
+  margin-bottom: 5rem;
+}
+.ventajas .your p {
+  display: inline-block;
+  width: 30rem;
+  margin: 6rem;
+}
+.ventajas .your h2 {
+  position: absolute;
+  display: block;
+  margin: 4rem;
+  margin-left: 6rem;
+}
+
+.ready {
+  position: relative;
+  width: 40rem;
+  height: 8rem;
+  background-color: rgb(255, 255, 255);
+  left: 35%;
+  top: 5rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px 1px grey;
+  z-index: 2;
+}
+.ready h3 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.ready .centrarboton {
+  text-align: center;
+}
+.ready .getstarted {
+  width: 10rem;
+  height: 2.3rem;
+  border-radius: 3rem;
+  border: none;
+  background-color: hsl(322deg, 100%, 66%);
+  color: white;
+  box-shadow: 1px 2px 3px black;
+  text-align: center;
+}
+
+.img_ventajas {
+  width: 20rem;
+  display: block;
+  float: right;
+  padding: 2rem;
+}
+
+footer {
+  background-color: hsl(192deg, 100%, 9%);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20rem;
+  gap: 10rem;
+  z-index: 1;
+}
+footer .contacto {
+  display: inline-block;
+  width: 20rem;
+  position: relative;
+  top: 8.3rem;
+  height: 9rem;
+}
+footer .informacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-end;
+}
+footer .informacion ul {
+  list-style: none;
+}
+footer .redes {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+@media (max-width: 970px) {
+  .ventajas .flowing h2 {
+    margin: 4rem;
+    margin-left: 6rem;
+  }
+  .ready {
+    left: 10%;
+  }
+  footer .contacto {
+    top: 7rem;
+  }
+}
+@media (max-width: 426px) {
+  body {
+    background-size: 100vw 50rem;
+    width: 400px;
+  }
+  body nav {
+    width: 100%;
+    height: 50rem;
+  }
+  body .logo {
+    width: 8rem;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  body .tryfree {
+    width: 6rem;
+    left: 0.5rem;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  body .titulos1 {
+    font-size: 1rem;
+    margin: 0;
+    left: 1rem;
+  }
+  body .titulos1 .titulo {
+    margin-left: 3rem;
+    text-align: center;
+  }
+  body .titulos1 .p_titulo {
+    width: 20rem;
+    text-align: center;
+  }
+  body .titulos1 .getstarted {
+    margin-left: 6.8rem;
+  }
+  body .mockups {
+    position: relative;
+    width: 100vw;
+    top: 4rem;
+  }
+  body .img_ventajas {
+    width: 50vw;
+  }
+  body .ventajas {
+    position: relative;
+    width: 90vw;
+    margin: 1rem;
+  }
+  body .ventajas .grow p {
+    width: 10rem;
+    position: relative;
+    top: 3rem;
+  }
+  body .ventajas .grow .img_ventajas {
+    position: relative;
+    right: 2rem;
+  }
+  body .ventajas .flowing p {
+    width: 10rem;
+    position: relative;
+    top: 3rem;
+  }
+  body .ventajas .flowing .img_ventajas {
+    position: relative;
+    left: 2.5rem;
+  }
+  body .ventajas .your p {
+    width: 10rem;
+    position: relative;
+    top: 3rem;
+  }
+  body .ventajas .your .img_ventajas {
+    position: relative;
+    right: 2rem;
+  }
+  body .ready {
+    width: 20rem;
+    position: relative;
+    margin: 0;
+  }
+  body footer {
+    flex-direction: column;
+    height: 50rem;
+  }
+  body footer .contacto {
+    margin-left: 6rem;
+    text-align: start;
+  }
+  body footer .informacion {
+    align-self: center;
+  }
+  body footer .redes {
+    align-self: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
