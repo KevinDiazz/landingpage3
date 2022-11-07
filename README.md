@@ -1,3 +1,3 @@
 
 Landing page
-![image text] url(https://github.com/KevinDiazz/landingpage3/blob/main/shdhdfhdf.png)
+![image text](https://github.com/KevinDiazz/landingpage3/blob/main/shdhdfhdf.png)
